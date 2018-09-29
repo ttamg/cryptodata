@@ -1,6 +1,6 @@
 from mongo.mongo import Trades
 
-from cryptodata.logger import log
+from utils.logger import log
 log.debug(f'Loading module {__name__}')
 
 

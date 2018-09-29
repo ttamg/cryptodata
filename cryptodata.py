@@ -1,14 +1,14 @@
 import time, datetime
 
-from cryptodata.scheduler import unixtime_period
-from cryptodata.threading import run_threaded
+from utils.scheduler import unixtime_period
+from utils.threading import run_threaded
 from config import EXCHANGES, PERIOD
 from cryptodata.save_ticker import save_ticker
 from cryptodata.save_orderbook import save_orderbook
 from cryptodata.save_trades import save_trades
 
 import logging
-from cryptodata.logger import log
+from utils.logger import log
 log.debug(f'Loading module {__name__}')
 log.setLevel(logging.INFO)
 
