@@ -35,19 +35,6 @@ def master_job(unixtime=None):
                 })
 
 
-
-def job_test():
-    """
-    Test thing
-    :return:
-    """
-    print(f'Hello world - {datetime.datetime.now()}')
-    time.sleep(15)
-    print(f'yup')
-    return None
-
-
-
 def run_timer():
     """
     Main running programme - that waits until a specified number of seconds from the epoch and then runs the job
